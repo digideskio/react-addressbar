@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/christianalfoni/react-addressbar#readme",
   "dependencies": {
-    "addressbar": "^0.1.x"
+    "addressbar": "^1.0.1",
+    "url-parse": "^1.0.5"
   }
 }
