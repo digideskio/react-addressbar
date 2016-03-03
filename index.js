@@ -36,7 +36,12 @@ module.exports = React.createClass({
     var origin = urlObj.protocol + '//' + urlObj.host;
     this.props.onChange(url, {
       origin: origin,
-      pathname: urlObj.pathname
+      protocol: urlObj.protocol,
+      hostname: urlObj.hostname,
+      port: urlObj.port,
+      pathname: urlObj.pathname,
+      search: urlObj.query,
+      hash: urlObj.hash
     });
   },
   render: function () {
