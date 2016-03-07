@@ -3,6 +3,7 @@ var React = require('react');
 var URL = require('url-parse');
 
 module.exports = React.createClass({
+  displayName: 'Addressbar',
   propTypes: {
     onChange: React.PropTypes.func.isRequired,
     value: React.PropTypes.string.isRequired,
